@@ -38,6 +38,6 @@ while True:
 
 df_vacancy = pd.DataFrame(vacancy)
 df_vacancy.to_csv(f'vacancy_{zapros}.csv')
-pprint(type(df_vacancy[zp]))
+pprint(df_vacancy)
 
 
